@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
-const API_KEY = import.meta.env.VITE
+const API_KEY = import.meta.env.VITE_API
 const App: React.FC = () => {
   const [weatherData, setWeatherData] = useState<{
     city: string;
